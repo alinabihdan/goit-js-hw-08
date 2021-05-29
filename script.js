@@ -94,6 +94,8 @@ function onArrowPress(e) {
     if (newIndex === arrayImages.length) {
       newIndex = 0;
     }
+  } else {
+    return;
   }
   refs.modalImage.src = arrayImages[newIndex];
 }
